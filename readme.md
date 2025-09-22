@@ -6,8 +6,8 @@
 <h3>index.html</h3>
 <p>Este archivo es la estructura principal de la aplicación. Define la interfaz de usuario con elementos como un título, un campo de entrada para los nombres, botones para agregar y sortear, y listas para mostrar los nombres agregados y el resultado del sorteo.</p>
 <ul>
-    <li><strong>Encabezado</strong> (<header>): Contiene el título principal de la aplicación, "Amigo Secreto", y una imagen representativa.</li>
-    <li><strong>Sección de Entrada</strong> (<section>): Muestra el formulario para ingresar nombres. Incluye un campo de texto (<input>), un botón para "Añadir" y dos listas (<ul>) para los nombres agregados (#listaAmigos) y el resultado (#resultado).</li>
+    <li><strong>Encabezado</strong> (&lt;header&gt;): Contiene el título principal de la aplicación, "Amigo Secreto", y una imagen representativa.</li>
+    <li><strong>Sección de Entrada</strong> (&lt;section&gt;): Muestra el formulario para ingresar nombres. Incluye un campo de texto (&lt;input&gt;), un botón para "Añadir" y dos listas (&lt;ul&gt;) para los nombres agregados (#listaAmigos) y el resultado (#resultado).</li>
     <li><strong>Botón de Sorteo</strong>: Un botón con la etiqueta "Sortear amigo" que activa la función de sorteo.</li>
 </ul>
 <h3>style.css</h3>
@@ -33,7 +33,7 @@
     <li>llenarLista():
         <ul>
             <li>Recorre el array amigos.</li>
-            <li>Crea un nuevo elemento de lista (<li>) para cada nombre.</li>
+            <li>Crea un nuevo elemento de lista (&lt;li&gt;) para cada nombre.</li>
             <li>Agrega cada nuevo elemento a la lista (#listaAmigos) en el HTML.</li>
         </ul>
     </li>
